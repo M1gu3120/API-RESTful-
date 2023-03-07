@@ -1,7 +1,7 @@
 # API-RESTful-
 M1gu3120/API-RESTful-con-operaciones-CRUD- con Nodejs y Javascrip
 
-estos son los pasos para poder hacer la API:
+estos son los pasos para poder crear la API_RESTful:
 
 primero Para instalar y ejecutar el  servidor, se deben seguir los siguientes pasos:
 
