@@ -29,7 +29,7 @@ En cuanto a la gestión de errores, este servidor utiliza dos middlewares person
 
 En resumen, este código proporciona una plantilla básica para crear un servidor Express y se puede extender y personalizar según las necesidades de cada proyecto. Es importante entender los conceptos detrás del servidor y la estructura del código fuente para poder modificarlo y expandirlo de manera efectiva.
 
-ste código define las rutas y los manejadores de las solicitudes HTTP relacionadas con los productos de una tienda. Se usa el módulo express para crear un enrutador y se importa la clase ProductService del archivo productService.js para realizar las operaciones CRUD en la base de datos.
+el código define las rutas y los manejadores de las solicitudes HTTP relacionadas con los productos de una tienda. Se usa el módulo express para crear un enrutador y se importa la clase ProductService del archivo productService.js para realizar las operaciones CRUD en la base de datos.
 
 Además, se utilizan los middlewares validatorHandler y los esquemas definidos en productShema.js para validar los datos enviados en las solicitudes.
 
