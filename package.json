@@ -1,0 +1,35 @@
+{
+  "name": "my_prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mi_app.js",
+  "scripts": {
+    "dev": "nodemon mi_app.js",
+    "start": "node mi_app.js",
+    "list": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "faker": "^6.6.6",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "middleware": "^1.0.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
