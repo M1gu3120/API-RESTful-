@@ -66,7 +66,7 @@ buscamos un id
 
 ![image](https://user-images.githubusercontent.com/112451633/223309244-82dfc493-8d8e-42de-adf6-eba07699671e.png)
 
-luego de encontrar el id damos la peticion de PATCH y hacemos los cambios en este caso se cambio el nombre del producto y el precio 
+Después de obtener el id del producto que queremos actualizar, hacemos una petición PATCH en Insomnia para modificar la información del producto. En este caso, se cambió el nombre del producto y su precio mediante los datos proporcionados en el cuerpo de la solicitud.
 ![image](https://user-images.githubusercontent.com/112451633/223309593-0054033c-8878-4d9a-819c-dabd07039788.png)
 
 DELETE /:id: Elimina el producto con el identificador id 
@@ -76,34 +76,9 @@ DELETE /:id: Elimina el producto con el identificador id
  
  ![image](https://user-images.githubusercontent.com/112451633/223310068-1804ad10-845c-4733-af0d-a86e28ecdd52.png)
  
- si lo intentamos buscar por el id nos arrojara un error  "product not found"
+si lo intentamos buscar por el id nos arrojara un error 'product not found
  
  ![image](https://user-images.githubusercontent.com/112451633/223310221-c4e3f884-4f54-4b58-a69a-24e3cdf99e0a.png)
  
- si nos fijamos los middlewares esta cumpliendo con su funcio y nos aroja en consola el errorHandler
- 
+ Si nos fijamos en los middlewares, podemos ver que están cumpliendo con su función correctamente. En caso de que haya un error en alguna de las peticiones, el middleware de errorHandler se encargará de manejar la situación y mostrar el mensaje correspondiente en la consola, como se puede observar en la captura de pantalla.
  ![image](https://user-images.githubusercontent.com/112451633/223310616-551c6c66-fe47-464d-a412-bc04e43d3e7e.png)
-
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
