@@ -46,6 +46,64 @@ Finalmente, se exporta el enrutador creado para su uso en otro archivo. Se menci
 
 acontinuacion mostrare screenshot de como realizar las peticiones en Insomnia
 
+GET /: Devuelve todos los productos almacenados en la base de datos.
+
+![image](https://user-images.githubusercontent.com/112451633/223307734-3dfdc7bf-b1e3-4e5e-8f38-b0ba5a0d97df.png)
+
+POST /: Crea un nuevo producto con los datos proporcionados en el cuerpo de la solicitud.
+
+![image](https://user-images.githubusercontent.com/112451633/223308423-18dc173b-43e6-4a05-bccd-e4027e975cd4.png)
+
+![image](https://user-images.githubusercontent.com/112451633/223308559-16767140-2266-4b0c-954a-341c5ca37ff6.png)
+
+![image](https://user-images.githubusercontent.com/112451633/223308814-007c4acf-cb38-4171-ae8c-85f3bf442e37.png)
+
+PATCH /:id: Actualiza el producto con el identificador id con los datos proporcionados en el cuerpo de la solicitud
+
+buscamos un id 
+![image](https://user-images.githubusercontent.com/112451633/223309173-082ea766-5a6c-47d9-a428-a5f701d42266.png)
+
+
+![image](https://user-images.githubusercontent.com/112451633/223309244-82dfc493-8d8e-42de-adf6-eba07699671e.png)
+
+luego de encontrar el id damos la peticion de PATCH y hacemos los cambios en este caso se cambio el nombre del producto y el precio 
+![image](https://user-images.githubusercontent.com/112451633/223309593-0054033c-8878-4d9a-819c-dabd07039788.png)
+
+DELETE /:id: Elimina el producto con el identificador id 
+![image](https://user-images.githubusercontent.com/112451633/223309857-a6f78e1c-ba12-4311-94e3-f544a682acf4.png)
+ 
+ con Delete en la peticion eliminamos los dotos creados
+ 
+ ![image](https://user-images.githubusercontent.com/112451633/223310068-1804ad10-845c-4733-af0d-a86e28ecdd52.png)
+ 
+ si lo intentamos buscar por el id nos arrojara un error  "product not found"
+ 
+ ![image](https://user-images.githubusercontent.com/112451633/223310221-c4e3f884-4f54-4b58-a69a-24e3cdf99e0a.png)
+ 
+ si nos fijamos los middlewares esta cumpliendo con su funcio y nos aroja en consola el errorHandler
+ 
+ ![image](https://user-images.githubusercontent.com/112451633/223310616-551c6c66-fe47-464d-a412-bc04e43d3e7e.png)
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
