@@ -44,6 +44,8 @@ Estos manejadores de ruta interactúan con la instancia de ProductService para r
 
 Finalmente, se exporta el enrutador creado para su uso en otro archivo. Se menciona que las pruebas se hicieron con Insomnia, una herramienta para realizar solicitudes HTTP y probar APIs , en el código se usó la librería Faker para generar datos falsos de productos con diferentes atributos como id, imágenes, precio, nombre, descripción, fecha y hora. Faker es una librería muy útil para generar datos de prueba en situaciones en las que no se dispone de una base de datos real o cuando se quiere crear datos falsos para pruebas unitarias o de integración. Faker permite generar datos de diferentes tipos, como nombres, direcciones, fechas, números de teléfono, correos electrónicos, etc. y se puede instalar fácilmente a través de npm.
 
+acontinuacion mostrare screenshot de como realizar las peticiones en Insomnia
+
 
 
 
